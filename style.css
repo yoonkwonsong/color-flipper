@@ -4,13 +4,20 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 nav {
     display: flex;
     height: 50px;
     background-color: white;
     align-items: center;
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 0 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-transform: capitalize;
 }
 
 nav .links {
@@ -19,6 +26,9 @@ nav .links {
 
 nav .links a {
     cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 0 30px;
 }
 
 main .body {
@@ -27,4 +37,31 @@ main .body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+main .body .back-name {
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+main .body .btn {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+}
+
+main .body .btn:hover {
+    color: white;
+    background-color: black;
 }
