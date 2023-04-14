@@ -50,6 +50,7 @@ main .body .back-name {
 
 main .body .btn {
     font-size: 15px;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 5px 10px;
@@ -57,7 +58,7 @@ main .body .btn {
     margin-top: 20px;
     cursor: pointer;
     background-color: transparent;
-    border: 1px solid black;
+    border: 2px solid black;
     transition: all 0.3s ease-in-out;
 }
 
